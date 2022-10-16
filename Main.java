@@ -78,7 +78,7 @@ final class Main {
                 System.out.println("The maximum quantity of food is 3.");
             } else {
                 // Calculations
-                final double timeOfOne = OPTIONS_TIME[includes(OPTIONS, food)];
+                final double timeOfOne = OPTIONSTIME[includes(OPTIONS, food)];
                 final double timeUnFormated =
                     timeOfOne + timeOfOne * ((amount - 1) * 0.5);
                 final double seconds = 60 * (timeUnFormated % 1);
